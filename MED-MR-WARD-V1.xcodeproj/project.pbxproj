@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE12D8C72C466EE000F54F1C /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = EE12D8C62C466EE000F54F1C /* RealityKitContent */; };
+		EE12D8C92C466EE000F54F1C /* MED_MR_WARD_V1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8C82C466EE000F54F1C /* MED_MR_WARD_V1App.swift */; };
+		EE12D8CB2C466EE000F54F1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8CA2C466EE000F54F1C /* ContentView.swift */; };
+		EE12D8CD2C466EE000F54F1C /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8CC2C466EE000F54F1C /* ImmersiveView.swift */; };
+		EE12D8CF2C466EE100F54F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12D8CE2C466EE100F54F1C /* Assets.xcassets */; };
+		EE12D8D22C466EE100F54F1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE12D8D12C466EE100F54F1C /* Preview Assets.xcassets */; };
+		EE12D8DE2C466FBC00F54F1C /* ImageTrackingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8DD2C466FBC00F54F1C /* ImageTrackingModel.swift */; };
+		EE12D8E02C4670B900F54F1C /* PatientTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8DF2C4670B900F54F1C /* PatientTabView.swift */; };
+		EE12D8E22C46750500F54F1C /* SummaryTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8E12C46750500F54F1C /* SummaryTab.swift */; };
+		EE12D8E42C46898B00F54F1C /* CheckListTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8E32C46898B00F54F1C /* CheckListTab.swift */; };
+		EE12D8E62C468EAD00F54F1C /* DevicesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8E52C468EAD00F54F1C /* DevicesTab.swift */; };
+		EE12D8E82C46905900F54F1C /* DevicesDetailTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8E72C46905900F54F1C /* DevicesDetailTab.swift */; };
+		EE12D8EA2C46AC6E00F54F1C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12D8E92C46AC6E00F54F1C /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE12D8C12C466EE000F54F1C /* MED-MR-WARD-V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MED-MR-WARD-V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE12D8C52C466EE000F54F1C /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		EE12D8C82C466EE000F54F1C /* MED_MR_WARD_V1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MED_MR_WARD_V1App.swift; sourceTree = "<group>"; };
+		EE12D8CA2C466EE000F54F1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE12D8CC2C466EE000F54F1C /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		EE12D8CE2C466EE100F54F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/joebadger/Documents/LocalProjects/VisionOS_Projects/MED-MR-WARD-V1/MED-MR-WARD-V1/Assets.xcassets"; sourceTree = "<absolute>"; };
+		EE12D8D12C466EE100F54F1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE12D8D32C466EE100F54F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE12D8DD2C466FBC00F54F1C /* ImageTrackingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTrackingModel.swift; sourceTree = "<group>"; };
+		EE12D8DF2C4670B900F54F1C /* PatientTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTabView.swift; sourceTree = "<group>"; };
+		EE12D8E12C46750500F54F1C /* SummaryTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTab.swift; sourceTree = "<group>"; };
+		EE12D8E32C46898B00F54F1C /* CheckListTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTab.swift; sourceTree = "<group>"; };
+		EE12D8E52C468EAD00F54F1C /* DevicesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesTab.swift; sourceTree = "<group>"; };
+		EE12D8E72C46905900F54F1C /* DevicesDetailTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesDetailTab.swift; sourceTree = "<group>"; };
+		EE12D8E92C46AC6E00F54F1C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE12D8BE2C466EE000F54F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12D8C72C466EE000F54F1C /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE12D8B82C466EE000F54F1C = {
+			isa = PBXGroup;
+			children = (
+				EE12D8C32C466EE000F54F1C /* MED-MR-WARD-V1 */,
+				EE12D8C42C466EE000F54F1C /* Packages */,
+				EE12D8C22C466EE000F54F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE12D8C22C466EE000F54F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8C12C466EE000F54F1C /* MED-MR-WARD-V1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE12D8C32C466EE000F54F1C /* MED-MR-WARD-V1 */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8C82C466EE000F54F1C /* MED_MR_WARD_V1App.swift */,
+				EE12D8DA2C466F9700F54F1C /* Views */,
+				EE12D8D92C466F9100F54F1C /* Models */,
+				EE12D8CE2C466EE100F54F1C /* Assets.xcassets */,
+				EE12D8D32C466EE100F54F1C /* Info.plist */,
+				EE12D8D02C466EE100F54F1C /* Preview Content */,
+			);
+			path = "MED-MR-WARD-V1";
+			sourceTree = "<group>";
+		};
+		EE12D8C42C466EE000F54F1C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8C52C466EE000F54F1C /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		EE12D8D02C466EE100F54F1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8D12C466EE100F54F1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE12D8D92C466F9100F54F1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8DD2C466FBC00F54F1C /* ImageTrackingModel.swift */,
+				EE12D8E92C46AC6E00F54F1C /* Extensions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE12D8DA2C466F9700F54F1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE12D8CA2C466EE000F54F1C /* ContentView.swift */,
+				EE12D8CC2C466EE000F54F1C /* ImmersiveView.swift */,
+				EE12D8DF2C4670B900F54F1C /* PatientTabView.swift */,
+				EE12D8E12C46750500F54F1C /* SummaryTab.swift */,
+				EE12D8E32C46898B00F54F1C /* CheckListTab.swift */,
+				EE12D8E52C468EAD00F54F1C /* DevicesTab.swift */,
+				EE12D8E72C46905900F54F1C /* DevicesDetailTab.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE12D8C02C466EE000F54F1C /* MED-MR-WARD-V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE12D8D62C466EE100F54F1C /* Build configuration list for PBXNativeTarget "MED-MR-WARD-V1" */;
+			buildPhases = (
+				EE12D8BD2C466EE000F54F1C /* Sources */,
+				EE12D8BE2C466EE000F54F1C /* Frameworks */,
+				EE12D8BF2C466EE000F54F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MED-MR-WARD-V1";
+			packageProductDependencies = (
+				EE12D8C62C466EE000F54F1C /* RealityKitContent */,
+			);
+			productName = "MED-MR-WARD-V1";
+			productReference = EE12D8C12C466EE000F54F1C /* MED-MR-WARD-V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE12D8B92C466EE000F54F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE12D8C02C466EE000F54F1C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE12D8BC2C466EE000F54F1C /* Build configuration list for PBXProject "MED-MR-WARD-V1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE12D8B82C466EE000F54F1C;
+			productRefGroup = EE12D8C22C466EE000F54F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE12D8C02C466EE000F54F1C /* MED-MR-WARD-V1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE12D8BF2C466EE000F54F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12D8D22C466EE100F54F1C /* Preview Assets.xcassets in Resources */,
+				EE12D8CF2C466EE100F54F1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE12D8BD2C466EE000F54F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12D8CB2C466EE000F54F1C /* ContentView.swift in Sources */,
+				EE12D8C92C466EE000F54F1C /* MED_MR_WARD_V1App.swift in Sources */,
+				EE12D8E82C46905900F54F1C /* DevicesDetailTab.swift in Sources */,
+				EE12D8E02C4670B900F54F1C /* PatientTabView.swift in Sources */,
+				EE12D8DE2C466FBC00F54F1C /* ImageTrackingModel.swift in Sources */,
+				EE12D8EA2C46AC6E00F54F1C /* Extensions.swift in Sources */,
+				EE12D8E22C46750500F54F1C /* SummaryTab.swift in Sources */,
+				EE12D8E62C468EAD00F54F1C /* DevicesTab.swift in Sources */,
+				EE12D8E42C46898B00F54F1C /* CheckListTab.swift in Sources */,
+				EE12D8CD2C466EE000F54F1C /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE12D8D42C466EE100F54F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		EE12D8D52C466EE100F54F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		EE12D8D72C466EE100F54F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MED-MR-WARD-V1/Preview Content\"";
+				DEVELOPMENT_TEAM = U9B8K62YNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JoeBadger.MED-MR-WARD-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		EE12D8D82C466EE100F54F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MED-MR-WARD-V1/Preview Content\"";
+				DEVELOPMENT_TEAM = U9B8K62YNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JoeBadger.MED-MR-WARD-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE12D8BC2C466EE000F54F1C /* Build configuration list for PBXProject "MED-MR-WARD-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12D8D42C466EE100F54F1C /* Debug */,
+				EE12D8D52C466EE100F54F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE12D8D62C466EE100F54F1C /* Build configuration list for PBXNativeTarget "MED-MR-WARD-V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE12D8D72C466EE100F54F1C /* Debug */,
+				EE12D8D82C466EE100F54F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE12D8C62C466EE000F54F1C /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE12D8B92C466EE000F54F1C /* Project object */;
+}
